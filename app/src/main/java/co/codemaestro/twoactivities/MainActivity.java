@@ -8,10 +8,8 @@ import android.view.View;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String LOG_TAG =
-            MainActivity.class.getSimpleName();
-    public static final String EXTRA_MESSAGE =
-            "co.codemaestro.twoactivities.extra.MESSAGE";
+    private static final String LOG_TAG = MainActivity.class.getSimpleName();
+    public static final String EXTRA_MESSAGE = "co.codemaestro.twoactivities.extra.MESSAGE";
     private EditText mMessageEditText;
 
     @Override
