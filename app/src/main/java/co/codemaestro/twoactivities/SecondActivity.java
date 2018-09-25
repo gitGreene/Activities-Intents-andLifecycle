@@ -34,6 +34,7 @@ public class SecondActivity extends AppCompatActivity {
         Log.d(LOG_TAG, "onStart");
     }
 
+
     @Override
     protected void onPause() {
         super.onPause();
